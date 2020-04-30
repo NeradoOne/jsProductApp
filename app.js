@@ -39,7 +39,7 @@ class UI {
     div.className = `alert alert-${cssClass} mt-4`;
     div.appendChild(document.createTextNode(message));
     //Sowing in DOM
-    const container = document.querySelector(".container");
+    const container = document.querySelector(".appcont");
     const app = document.querySelector("#app");
     container.insertBefore(div, app);
     setTimeout(function () {
